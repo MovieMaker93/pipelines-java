@@ -35,6 +35,10 @@ steps:
     summaryFileLocation: "$(System.DefaultWorkingDirectory)/**/site/jacoco/jacoco.xml"
     reportDirectory: "$(System.DefaultWorkingDirectory)/**/site/jacoco"
     failIfCoverageEmpty: true
+- task: MavenAuthenticate@0
+  displayName: 'Maven Authenticate'
+  inputs:
+    artifactsFeeds: test
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
