@@ -10,7 +10,7 @@
   <distributionManagement>
    <repository>
     <id>MavenDemo</id>
-    <url>https://pkgs.dev.azure.com/ORGANIZATION-NAME/PROJECT-NAME/_packaging/FEED-NAME/maven/v1</url>
+    <url>https://pkgs.dev.azure.com/alfonsofortunato/Test-Sella/_packaging/test/maven/v1</url>
     <releases>
     <enabled>true</enabled>
     </releases>
