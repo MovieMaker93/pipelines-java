@@ -9,13 +9,13 @@
   <url>http://maven.apache.org</url>
   <distributionManagement>
    <repository>
-    <id>MavenDemo</id>
+    <id>test</id>
     <url>https://pkgs.dev.azure.com/alfonsofortunato/Test-Sella/_packaging/test/maven/v1</url>
     <releases>
-    <enabled>true</enabled>
+     <enabled>true</enabled>
     </releases>
     <snapshots>
-    <enabled>true</enabled>
+     <enabled>true</enabled>
     </snapshots>
    </repository>
   </distributionManagement>
